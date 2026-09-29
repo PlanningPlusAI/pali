@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.log
+
+# Machine-specific Windows shortcuts; recreate with scripts/make-shortcut.ps1
+*.lnk
+
+# Local secrets / environment overrides
+.env
+.env.*

@@ -1,0 +1,10 @@
+{
+  "name": "pali",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "typecheck": "cd server && npx tsc --noEmit && cd ../web && npx tsc -b"
+  }
+}
